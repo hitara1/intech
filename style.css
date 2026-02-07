@@ -1,0 +1,154 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    background-color: #2c2c54;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+
+.cars {
+    padding: 40px 20px;
+}
+
+.cars h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.car-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background-color: white;
+    width: 260px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;         
+    object-fit: cover;      
+    border-radius: 5px;
+}
+
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+
+.card button {
+    background-color: #1e1e2f;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card button:hover {
+    background-color: #444;
+}
+
+
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.search-box {
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+.register-form {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.register-form label {
+    display: block;
+    margin-top: 15px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.register-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1e1e2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
